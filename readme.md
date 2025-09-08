@@ -38,3 +38,8 @@ End-to-End-Student-Performance-Predictor/
 │── setup.py # package setup
 │── .gitignore # ignored files (artifacts, logs, DS_Store, etc.)
 │── README.md # project documentation
+
+
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/BMatewos/End-to-End-Student-Performance-Predictor)
+![License](https://img.shields.io/badge/license-MIT-green)
