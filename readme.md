@@ -40,6 +40,26 @@ End-to-End-Student-Performance-Predictor/
 │── README.md # project documentation
 
 
+## 📂 Project Structure
+
+```
+End-to-End-Student-Performance-Predictor/
+├── artifacts/             # saved models, outputs (ignored in git)
+├── notebook/              # Jupyter notebooks (EDA & experiments)
+├── src/
+│   ├── components/        # data_ingestion, transformation, model_trainer
+│   ├── pipeline/          # prediction pipeline
+│   ├── utils.py           # helper functions
+│   ├── logger.py          # logging setup
+│   └── ...
+├── requirements.txt       # dependencies
+├── setup.py               # package setup
+├── .gitignore             # ignored files (artifacts, logs, DS_Store, etc.)
+└── README.md              # project documentation
+```
+
+
+
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/BMatewos/End-to-End-Student-Performance-Predictor)
 ![License](https://img.shields.io/badge/license-MIT-green)
