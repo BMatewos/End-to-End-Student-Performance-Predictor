@@ -2,25 +2,28 @@
 
 ## Overview
 This project demonstrates a **complete machine learning pipeline** for predicting student performance.  
-It is designed as an end-to-end ML workflow, from raw data to a trained, ready-to-deploy model.
+It is designed as an **end-to-end ML workflow**, starting from raw data ingestion to training, evaluation, and finally deployment as a Flask web application with a simple UI for predictions.
 
 ---
 
 ## Features
-- **Data Ingestion**: Reading and validating raw data
-- **Data Transformation**: Cleaning, preprocessing, feature engineering
-- **Model Training**: CatBoost, XGBoost, and other ML models
-- **Evaluation**: Accuracy ~ **0.88** on test set
-- **Logging & Exception Handling**: Custom utilities for debugging and error tracking
-- **Deployment-Ready Structure**: Modularized code (`src/components`, `src/pipeline`, etc.)
+- **Data Ingestion**: Reads and validates raw student data  
+- **Data Transformation**: Cleans, preprocesses, and performs feature engineering  
+- **Model Training**: Trains models such as CatBoost, XGBoost, and others  
+- **Evaluation**: Achieves ~ **0.88 accuracy** on the test set  
+- **Logging & Exception Handling**: Custom utilities for easier debugging and error tracking  
+- **Deployment-Ready Structure**: Modularized code (`src/components`, `src/pipeline`, etc.) for scalability  
+- **Flask Web App**: Interactive web interface for entering student details and predicting math scores in real-time  
+
 
 ---
 
-## Tech Stack
-- **Python 3.10+**
-- **Libraries**: pandas, numpy, scikit-learn, catboost, xgboost
-- **Tools**: Git, GitHub, Conda
-- **Project Organization**: Follows modular pipeline design
+##  Tech Stack
+- **Language**: Python 3.10+  
+- **Libraries**: pandas, numpy, scikit-learn, catboost, xgboost, flask  
+- **Tools**: Git, GitHub, Conda, Jupyter Notebook  
+- **Model Serving**: Flask web app with HTML templates  
+- **Project Organization**: Modular ML pipeline design (data ingestion → transformation → training → prediction)  
 
 
 
