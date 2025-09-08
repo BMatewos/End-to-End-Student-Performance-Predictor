@@ -25,3 +25,16 @@ It is designed as an end-to-end ML workflow, from raw data to a trained, ready-t
 ---
 
 ## 📂 Project Structure
+End-to-End-Student-Performance-Predictor/
+│── artifacts/ # saved models, outputs (ignored in git)
+│── notebook/ # Jupyter notebooks (EDA & experiments)
+│── src/
+│ ├── components/ # data_ingestion, transformation, model_trainer
+│ ├── pipeline/ # prediction pipeline
+│ ├── utils.py # helper functions
+│ ├── logger.py # logging setup
+│ └── ...
+│── requirements.txt # dependencies
+│── setup.py # package setup
+│── .gitignore # ignored files (artifacts, logs, DS_Store, etc.)
+│── README.md # project documentation
