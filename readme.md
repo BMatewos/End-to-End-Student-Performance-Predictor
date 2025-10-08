@@ -46,25 +46,11 @@ End-to-End-Student-Performance-Predictor/
 └── README.md              # project documentation
 ```
 
-## 📁 Project Structure
-Drug-Review-Project/
-├── artifacts/ # saved models, metrics, and outputs (ignored in git)
-├── notebook/ # Jupyter notebooks (EDA & experiments)
-├── src/
-│ ├── components/ # data_ingestion, transformation, model_trainer
-│ ├── pipeline/ # prediction pipeline & model inference
-│ ├── utils.py # helper functions
-│ ├── logger.py # logging setup
-│ └── init.py
-├── tests/ # unit and integration tests
-├── data/ # raw and processed datasets
-├── requirements.txt # dependencies
-├── setup.py # package setup configuration
-├── .gitignore # ignored files (artifacts, logs, DS_Store, etc.)
-└── README.md # project documentation
----
-
-✅ After pasting this into your README and saving, GitHub will render it beautifully like a clean folder tree.
+### Example Use Case
+Analyze real-world drug reviews to:
+Identify top-rated and low-rated drugs
+Detect patterns in side effects or user satisfaction
+Predict ratings based on written reviews
 
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
