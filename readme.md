@@ -46,11 +46,6 @@ End-to-End-Student-Performance-Predictor/
 └── README.md              # project documentation
 ```
 
-### Example Use Case
-Analyze real-world drug reviews to:
-Identify top-rated and low-rated drugs
-Detect patterns in side effects or user satisfaction
-Predict ratings based on written reviews
 
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
