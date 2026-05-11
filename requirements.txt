@@ -5,5 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
+pytest
 #-e .
 # i am testing sth with mati
