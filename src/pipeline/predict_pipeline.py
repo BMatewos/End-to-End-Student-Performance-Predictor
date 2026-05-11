@@ -12,6 +12,7 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
+            # get the model and preprocessor from the artifacts folder
             model_path=os.path.join("artifacts","model.pkl")
             preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
             print("Before Loading")
